@@ -1,0 +1,146 @@
+/*---------Navigation----------*/
+
+/* #nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+} */
+
+.navbar-brand img {
+    height: 80px;
+    padding-left: 70px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: #ff0000!important;
+}
+
+
+/*.navbar-brand {
+    background: #fff;
+}*/
+
+.navbar-toggler {
+    border: none!important;
+}
+
+.nav-link {
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*----------------------------Social Media------------------*/
+
+#social-media {
+    background: #ffffff;
+    padding: 100px 0;
+}
+
+#social-icons img {
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+
+/*----------------------------Footer------------------*/
+
+#footer {
+    background: #272727;
+    height: 100px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.d-flex{
+    background: url(img.jpg);
+}
+
+.loginbox{
+    width: fit-content;
+    height: fit-content;
+    background: rgb(48, 48, 48);
+    color: #fff;
+    padding: 10%;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #adadad;
+    color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #fb2525;
+}
+
